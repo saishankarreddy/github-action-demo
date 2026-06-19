@@ -1,12 +1,12 @@
-me: My First GitHub Action
+name: My First GitHub Action
 
 on:
-    push
+  push
 
 jobs:
-    hello:
-          runs-on: ubuntu-latest
+  hello:
+    runs-on: ubuntu-latest
 
-                steps:
-                        - name: Print Message
-                                  run: echo "Hello Sai! My first GitHub Action is running."
+    steps:
+      - name: Print Message
+        run: echo "Hello Sai! My first GitHub Action is running."
